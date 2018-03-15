@@ -1,5 +1,5 @@
 {
-  "name": "@goldiloxio/bitlive",
+  "name": "bitlive",
   "version": "0.0.13",
   "description": "Get all bitcoin transactions real time over socket.io from insight servers online",
   "main": "index.js",
