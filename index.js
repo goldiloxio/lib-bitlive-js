@@ -1,9 +1,9 @@
-const io = require('socket.io-client')
-const debug = require('debug')('blt')
-const txdebug = require('debug')('blt:tx')
-const hashdebug = require('debug')('blt:hash')
-const blockdebug = require('debug')('blt:blockchain')
-const request = require('request')
+const io = require('socket.io-client');
+const debug = require('debug')('blt');
+const txdebug = require('debug')('blt:tx');
+const hashdebug = require('debug')('blt:hash');
+const blockdebug = require('debug')('blt:blockchain');
+const request = require('request');
 
 const EventEmitter = require('events').EventEmitter;
 
@@ -125,4 +125,4 @@ module.exports = function(config) {
       }
     });
   }
-}
+};
